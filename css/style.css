@@ -1,10 +1,10 @@
 .logo {
-    width: 100%;
+    width: 80%;
 }
 
 .jumbotron {
     background-color: white;
-    background: url("images/mountains.png");
+    background: url("../images/mountains.png");
     background-size:cover;
     background-position:center;
     padding-top:100px;
@@ -37,4 +37,12 @@
 .heading {
     font-family: 'Open Sans', sans-serif;
     color: white;
+}
+
+.grey {
+    background-color: #efefef;
+}
+
+.align-right {
+    text-align: right;
 }
