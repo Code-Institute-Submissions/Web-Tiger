@@ -1,5 +1,5 @@
 .logo {
-    width: 200%;
+    width: 120%;
 }
 
 .jumbotron {
@@ -14,13 +14,34 @@
     font-family: 'Open Sans';
 }
 
-.row {
-    margin: 20px;
-    padding: 20px;
+.webtiger {
+    width: 90px;
+    height: 40px;
+    margin-top: -8px;
+}
+
+.contact-page {
+    background-color: white;
+    background-image: url("../images/mountains.png");
+    background-size:cover;
+    background-position:center;
+    padding-top:80px;
+    padding-bottom:80px;
+    color: white;
 }
 
 .row-spacing {
     padding: 15px 10px;
+}
+
+.row-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.jumbo-container {
+    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .row-color {
@@ -36,7 +57,6 @@
     margin-top: -10px;
 }
 
-
 .heading {
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -51,5 +71,29 @@
 }
 
 .contact-button {
-    margin: 10px;
+margin-top: -5px;
+}
+
+legend {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #fd9025;
+    color: white;
+}
+
+.footer-icons {
+    color: #FFF;
+    padding: 20px;
+    font-size: 30px;
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        width: 80%;
+        margin-top: 50px;
+    }
 }
