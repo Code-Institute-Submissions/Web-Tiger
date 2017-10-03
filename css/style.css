@@ -1,14 +1,17 @@
 .logo {
-    width: 80%;
+    width: 200%;
 }
 
 .jumbotron {
     background-color: white;
-    background: url("../images/mountains.png");
     background-size:cover;
     background-position:center;
     padding-top:100px;
     padding-bottom:100px;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans';
 }
 
 .row {
@@ -43,6 +46,10 @@
     background-color: #efefef;
 }
 
-.align-right {
-    text-align: right;
+.iphone {
+    width: 150%;
+}
+
+.contact-button {
+    margin: 10px;
 }
