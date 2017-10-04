@@ -30,6 +30,26 @@
     color: white;
 }
 
+.services-page {
+    background-color: white;
+    background-image: url("../images/meeting.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    color: white;
+}
+
+.about-page {
+    background-color: white;
+    background-image: url("../images/desk.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-top:80px;
+    padding-bottom:80px;
+    color: white;
+}
+
 .row-spacing {
     padding: 15px 10px;
 }
@@ -80,7 +100,7 @@ legend {
 
 footer {
     width: 100%;
-    height: 80px;
+    height: 55px;
     background-color: #fd9025;
     color: white;
 }
@@ -88,12 +108,20 @@ footer {
 .footer-icons {
     color: #FFF;
     padding: 20px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 @media (max-width: 1000px) {
     .logo {
         width: 80%;
         margin-top: 50px;
+    }
+    
+    footer {
+        height: 80px;
+    }
+    
+    .footer-icons {
+        font-size: 25px;
     }
 }
