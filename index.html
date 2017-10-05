@@ -40,7 +40,7 @@
                         <br/>
                         <p>The experts in website development/design, UI/UX and digital marketing.</p>
                         <br/>
-                        <button type="button" class="btn btn-warning btn-lg">Find Out More</button>
+                        <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Contact Us</button>
                     </div>
                     <div class="col-md-4 col-md-offset-1">
                         <img src="https://1c8byj2l19a42n8txy8rlvb27g-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Web3-Web-Design-Brisbane-home-convert2.gif" class="logo">
@@ -50,6 +50,33 @@
             </div>
         </div>
     </header>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Contact Us</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleTextarea">Message</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <section>
         <div class="row row-color row-container">
             <div class="col-sm-4 row-spacing">
@@ -78,7 +105,7 @@
                 <p>Let us add the rocket fuel to your sales with our UI/UX experience and digital strategies. 
                 We use the latest technologies to develop our websites with mobile responsiveness first.</p>
                 <br/>
-                <button type="button" class="btn btn-primary">Go!</button>
+                <a href="contact.html"><button type="button" class="btn btn-primary btn-lg">Go!</button></a>
             </div>
             <div class="col-md-6">
                 <img src="https://cdn.dribbble.com/users/4908/screenshots/2760742/launching-rocket-dribbble.gif" class="logo img-responsive">
@@ -97,8 +124,15 @@
                 and professional manner. We know all the technical terms so you don't have to, 
                 but we explain our process to make sure all your needs are met. </p>
                 <br/>
-                <button type="button" class="btn btn-primary">Talk To Us</button>
+                <a href="contact.html"><button type="button" class="btn btn-primary btn-lg">Talk To Us</button></a>
             </div>
+        </div>
+    </section>
+     <section>
+        <div class="row row-color row-container">
+            <div class="col-sm-4 col-sm-offset-4 row-spacing">
+                <h2></h2> 
+            </div> 
         </div>
     </section>
     <footer class="container-fluid text-center">
@@ -110,6 +144,6 @@
         </div>
     </footer>
 </body>
-<script src='https://code.jquery.com/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://code.jquery.com/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 </html>

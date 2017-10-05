@@ -31,7 +31,6 @@
             </div>
         </div>
     </nav>
-    
     <header>
         <div class="jumbotron contact-page">
             <div class="container">
@@ -43,64 +42,52 @@
             </div>
         </div>
     </header>
-    
     <section>
-        <div class="container" id="needs-validation" novalidate>
-            <form class="well form-horizontal" id="contact_form">
+        <div class="container">
+            <form class="well form-horizontal" id="contactform">
                 <fieldset>
                     <legend>Contact Us Today!</legend>
     
                     <!--Name-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="validationCustom01">Name</label>  
+                        <label class="col-md-4 control-label">Name</label>  
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input placeholder="Full Name" class="form-control" id="validationCustom01" required type="text">
+                                <input placeholder="Full Name" class="form-control" type="text">
                             </div>
                         </div>
                     </div>
     
                     <!--Email-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="validationCustom02">E-Mail</label>  
+                        <label class="col-md-4 control-label" for="email">E-Mail</label>  
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                <input placeholder="E-Mail Address" class="form-control" id="validationCustom02" required type="text">
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!--Current Website-->
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Current Website (If Applicable)</label>  
-                            <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-                                <input placeholder="Current Website" class="form-control" type="text">
+                                <input placeholder="E-Mail Address" class="form-control" name="email" required="" id="email" type="email">
                             </div>
                         </div>
                     </div>
 
                     <!--Project Description-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="validationCustom03">Project Description</label>
+                        <label class="col-md-4 control-label">Project Description</label>
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                            	<textarea class="form-control" placeholder="Project Description" id="validationCustom03" required></textarea>
+                            	<textarea class="form-control" placeholder="Project Description" required=""></textarea>
                             </div>
                         </div>
                     </div>
                     
                     <!--Solve-->
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="validationCustom04">Solve: 1+1</label>
+                        <label class="col-md-4 control-label">Solve: 1+1</label>
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-question-sign"></i></span>
-                            	<textarea class="form-control" placeholder="" id="validationCustom04" required></textarea>
+                            	<textarea class="form-control" required=""></textarea>
                             </div>
                         </div>
                     </div>
@@ -109,7 +96,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label"></label>
                         <div class="col-md-4 text-center">
-                            <button onclick="myFunction()" type="submit" class="btn btn-warning">Send <span class="glyphicon glyphicon-send"></span></button>
+                            <button type="submit" id="submitButton" class="btn btn-warning">Send <span class="glyphicon glyphicon-send"></span></button>
                         </div>
                     </div>
                 </fieldset>
@@ -125,6 +112,6 @@
         </div>
     </footer>
 </body>
-<script src='https://code.jquery.com/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </html>

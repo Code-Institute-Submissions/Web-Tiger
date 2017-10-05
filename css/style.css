@@ -25,14 +25,14 @@
     background-image: url("../images/mountains.png");
     background-size:cover;
     background-position:center;
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top:100px;
+    padding-bottom:100px;
     color: white;
 }
 
 .services-page {
     background-color: white;
-    background-image: url("../images/meeting.jpg");
+    background-image: url("../images/mouse.jpg");
     background-size:cover;
     background-position:center;
     padding-top:100px;
@@ -45,8 +45,8 @@
     background-image: url("../images/desk.jpg");
     background-size:cover;
     background-position:center;
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: white;
 }
 
@@ -109,6 +109,18 @@ footer {
     color: #FFF;
     padding: 20px;
     font-size: 15px;
+}
+
+.silver {
+    color: grey;
+}
+
+.gold {
+    color: orange;
+}
+
+.bronze {
+    color: brown;
 }
 
 @media (max-width: 1000px) {
