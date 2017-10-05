@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="js/script.js">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -52,7 +51,7 @@
     </header>
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" data-toggle="tooltip" data-placement="bottom" title="Let us know what you're looking for!">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Contact Us</h4>
@@ -121,8 +120,7 @@
                 <br/>
                 <p>Listening carefully to our clients requests and communicating on an 
                 ongoing basis ensure the project will be carried out in an efficient 
-                and professional manner. We know all the technical terms so you don't have to, 
-                but we explain our process to make sure all your needs are met. </p>
+                and professional manner.</p>
                 <br/>
                 <a href="contact.html"><button type="button" class="btn btn-primary btn-lg">Talk To Us</button></a>
             </div>
@@ -144,6 +142,8 @@
         </div>
     </footer>
 </body>
-    <script src='https://code.jquery.com/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="jquery.captcha.basic.min.js"></script>
 </html>

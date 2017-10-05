@@ -1,5 +1,12 @@
+
+
 .logo {
     width: 120%;
+}
+
+.checkbox {
+    margin-top: -5px;
+    margin-left: 20px;
 }
 
 .jumbotron {
