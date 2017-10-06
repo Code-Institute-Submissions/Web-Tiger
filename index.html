@@ -35,11 +35,11 @@
             <div class="container">
                 <div class="row jumbo-container">
                     <div class="col-md-6">
-                        <h1 class="heading">A Design For Life</h1>
+                        <h1 class="heading">Web Tiger</h1>
                         <br/>
                         <p>The experts in website development/design, UI/UX and digital marketing.</p>
                         <br/>
-                        <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Contact Us</button>
+                        <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Find Out More</button>
                     </div>
                     <div class="col-md-4 col-md-offset-1">
                         <img src="https://1c8byj2l19a42n8txy8rlvb27g-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Web3-Web-Design-Brisbane-home-convert2.gif" class="logo">
@@ -57,14 +57,14 @@
                     <h4 class="modal-title">Contact Us</h4>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form onSubmit="alert('Thank you, your message has been sent!');">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleTextarea">Message</label>
+                            <label for="exampleTextarea">Project Description</label>
                             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
@@ -80,18 +80,18 @@
         <div class="row row-color row-container">
             <div class="col-sm-4 row-spacing">
                 <i class="fa fa-television" aria-hidden="true"></i>
-                <h3>Bespoke Websites</h3>   
+                <h3>Design</h3>   
                 <p>We deliver quality custom-made website designs to suit your requirements</p>
             </div> 
             <div class="col-sm-4 row-spacing">
                 <i class="fa fa-credit-card" aria-hidden="true"></i>
-                <h3>Web Applications</h3>    
-                <p>We work on web application creatively using our deep knowledge of UX/UI design and software development.</p>
+                <h3>Development</h3>    
+                <p>We work on web applications creatively using our deep knowledge of software development.</p>
             </div>
             <div class="col-sm-4 row-spacing">
                 <i class="fa fa-line-chart" aria-hidden="true"></i>
-                <h3>Digital Strategies</h3>    
-                <p>Our well-formualted digital strategy focuses on SEO, social media, security and UI/UX</p>
+                <h3>Digital</h3>    
+                <p>Our innovative digital strategy focuses on SEO, social media, security and UI/UX</p>
             </div>
         </div>
     </section>
@@ -126,24 +126,21 @@
             </div>
         </div>
     </section>
-     <section>
-        <div class="row row-color row-container">
-            <div class="col-sm-4 col-sm-offset-4 row-spacing">
-                <h2></h2> 
-            </div> 
-        </div>
-    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
     <footer class="container-fluid text-center">
         <div class="row">
+           <hr class="horizontal-line">
            <div class="col-sm-4 col-sm-offset-4">
                <a href="#" class="fa fa-facebook footer-icons"></a>
                <a href="#" class="fa fa-twitter footer-icons"></a>
-           </div> 
+           </div>
+           <div class="col-sm-4 col-sm-offset-4">
+           <p class="text-grey">Copyright Web Tiger 2017</p>
+           </div>
         </div>
     </footer>
 </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-    <script src="jquery.captcha.basic.min.js"></script>
 </html>

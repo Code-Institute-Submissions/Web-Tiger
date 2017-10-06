@@ -1,4 +1,42 @@
 
+/*------------------------------------------------Back To Top*/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 15px; 
+    right: 15px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px; 
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+/*------------------------------------------------Tab*/
+
+.tab-spacing {
+    margin-bottom: 100px;
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom: 1;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
+/*------------------------------------------------Margins & Padding*/
 
 .logo {
     width: 120%;
@@ -9,61 +47,33 @@
     margin-left: 20px;
 }
 
-.jumbotron {
-    background-color: white;
-    background-size:cover;
-    background-position:center;
-    padding-top:100px;
-    padding-bottom:100px;
-}
-
-.navbar-brand {
-    font-family: 'Open Sans';
-}
-
 .webtiger {
     width: 90px;
     height: 40px;
     margin-top: -8px;
 }
 
-.contact-page {
-    background-color: white;
-    background-image: url("../images/mountains.png");
-    background-size:cover;
-    background-position:center;
-    padding-top:100px;
-    padding-bottom:100px;
-    color: white;
+.iphone {
+    width: 150%;
 }
 
-.services-page {
-    background-color: white;
-    background-image: url("../images/mouse.jpg");
-    background-size:cover;
-    background-position:center;
-    padding-top:100px;
-    padding-bottom:100px;
-    color: white;
+legend {
+    text-align: center;
 }
 
-.about-page {
+.text-left {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/*------------------------------------------------Jumbotron*/
+
+.jumbotron {
     background-color: white;
-    background-image: url("../images/desk.jpg");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     padding-top: 100px;
-    padding-bottom: 100px;
-    color: white;
-}
-
-.row-spacing {
-    padding: 15px 10px;
-}
-
-.row-container {
-    margin: 20px;
-    padding: 20px;
+    padding-bottom: 40px;
 }
 
 .jumbo-container {
@@ -71,17 +81,14 @@
     padding: 20px 20px 0 20px;
 }
 
-.row-color {
-    background-color: #efefef;
-    text-align: center;
-}
-
-.fa {
-    font-size: 50px;
-}
-
 .jumbotron, h1 {
     margin-top: -10px;
+}
+
+/*------------------------------------------------Fonts*/
+
+.navbar-brand {
+    font-family: 'Open Sans';
 }
 
 .heading {
@@ -89,34 +96,108 @@
     color: white;
 }
 
-.grey {
-    background-color: #efefef;
-}
+/*------------------------------------------------Pages*/
 
-.iphone {
-    width: 150%;
-}
-
-.contact-button {
-margin-top: -5px;
-}
-
-legend {
-    text-align: center;
-}
-
-footer {
-    width: 100%;
-    height: 55px;
-    background-color: #fd9025;
+.contact-page {
+    background-color: white;
+    background-image: url("../images/mountains.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: white;
 }
 
-.footer-icons {
-    color: #FFF;
+.services-page {
+    background-color: white;
+    background-image: url("../images/mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.about-page {
+    background-color: white;
+    background-image: url("../images/desk.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+/*------------------------------------------------Rows*/
+
+.row-spacing {
+    padding: 15px 10px;
+}
+
+.row-margin {
+    margin-bottom: 80px;
     padding: 20px;
+}
+
+.row-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.row-color {
+    background-color: #efefef;
+    text-align: center;
+}
+
+.row-center {
+    text-align: center;
+}
+
+.row-blue {
+    background-color: #0066ff;
+    margin: 20px;
+    padding: 30px 0 25px 0;
+}
+
+/*------------------------------------------------Favicons & Buttons*/
+
+.fa {
+    font-size: 50px;
+}
+
+.contact-button {
+    margin-top: -5px;
+}
+
+.fa-arrow-up {
     font-size: 15px;
 }
+
+/*------------------------------------------------Footer*/
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-icons {
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.horizontal-line {
+    border: none;
+    height: 1px;
+    color: grey; 
+    background-color: grey;
+    width: 500px;
+}
+
+/*------------------------------------------------Colours*/
 
 .silver {
     color: grey;
@@ -129,6 +210,32 @@ footer {
 .bronze {
     color: brown;
 }
+
+.grey {
+    background-color: #efefef;
+}
+
+.highlight-color-grey {
+    background-color: #f9f9f9;
+    margin: 20px 0;
+}
+
+.highlight-color-dark-grey {
+    background-color: #e6e6e6;
+    padding: 20px 0;
+}
+
+.text-white {
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.text-grey {
+    color: grey;
+}
+
+
+/*------------------------------------------------Mobile*/
 
 @media (max-width: 1000px) {
     .logo {
