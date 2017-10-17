@@ -1,26 +1,41 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# Web Tiger
 
+Web Tiger is a web design company template created for my Stream 1 Code Institute assignment.
 
-Hi there! Welcome to Cloud9 IDE!
+## Key Information
 
-To get you started, we included a small hello world application.
+Some basic details about my project.
 
-1) Open the hello-world.html file
+### Prerequisites
 
-2) Click on the Preview button to open a live preview pane
+What things you need to install the software and how to install them
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+```
+Give examples
+```
+## Running the tests
 
-Happy coding!
-The Cloud9 IDE team
+Explain how to run the automated tests for this system
 
+```
+Give an example
+```
 
-## Support & Documentation
+## Built With
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+* [Bootstrap](http://getbootstrap.com/) 
+* [jQuery](https://jquery.com/)
+
+## Authors
+
+* **Conor Clarke** - [Github](https://github.com/conorc470)
+
+## License
+
+This project is to be used only to showcase coding skills and is not monotized or connected to a domain.
+
+## Acknowledgments - Sources Of Gifs Used:
+
+* https://1c8byj2l19a42n8txy8rlvb27g-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Web3-Web-Design-Brisbane-home-convert2.gif
+* https://cdn.dribbble.com/users/291221/screenshots/1425333/helper.gif
+* https://cdn.dribbble.com/users/4908/screenshots/2760742/launching-rocket-dribbble.gif
