@@ -1,30 +1,42 @@
 # Web Tiger
 
-Web Tiger is a web design company template created for my Stream 1 Code Institute assignment.
+This Web App is the first project for the Code Institute's classroom bootcamp. 
+It is a fully responsive static front-end only app built with Bootstrap, JavaScript, jQuery, HTML & CSS.
 
-## Key Information
+View the wireframing.pdf file in the repo above for the mock-ups created for this project.
 
-Some basic details about my project.
+## Live Demo
 
-### Features
+Follow this link to view deployed version of the web app - https://conorc470.github.io/Web-Tiger/
 
-* Developed using Bootstrap
-* Contact Form
-* Modal Box
-* Use of modern gifs
+### Installation
+
+Follow the below instructions clone this project
+
+* Click 'Clone or download' dropdown button at the top of this screen
+* Copy link - hhttps://github.com/conorc470/Web-Tiger.git
+* In your terminal navigate to folder you want to save the project
+* $ git clone https://github.com/conorc470/Web-Tiger
+* New folder will contain all files of the project
 
 ## Testing
 
-```
-Tested using Jasmine
-```
+Manual testing was carried out throught the creating of this projects 
+ensuring all links and pathways worked correctly.
 
-## Built With
+## Deployment
 
-* [Bootstrap](http://getbootstrap.com/) 
-* [jQuery](https://jquery.com/)
+This project was deployed to GitHub pages
 
-## Authors
+## Technologies Used
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
+
+## Author
 
 * **Conor Clarke** - [Github](https://github.com/conorc470)
 
